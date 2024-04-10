@@ -1,0 +1,163 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+  }
+  
+  :root {
+    font-size: 62.5%;
+  }
+  
+  html, body, input {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+  background-color: white;
+  font-size: 1.6rem;
+
+  
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 43rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 1.2rem 2.8rem;
+  gap: 2.6rem;
+
+  background-color: #065E7C;
+}
+
+.paw img {
+  width: 4.0rem;
+  height: 4.0rem;
+}
+
+.pic img {
+  width: 4.2rem;
+  height: 4.2rem;
+
+}
+
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 1.2rem;
+  background-color: #f5f5f5; 
+
+  border: 0;
+  border-radius: .4rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.input-wrapper::placeholder {
+  opacity: 0.56rem;
+  color: #f5f5f5;
+}
+
+.action {
+  padding-top: .8rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 4.0rem;
+  height: 4.0rem;
+}
+
+main {
+  width: min(38.2rem);
+  padding-left: 2.2rem;
+  margin: 0 auto;
+}
+
+main h1 {
+  color: #202024;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 160%;
+}
+
+main > p {
+  font-size: 1.6rem;
+  line-height: 160%;
+  color: #121214;
+
+  padding-top: 3.1rem;
+  padding-right: 3.2rem;
+}
+
+main h2 {
+  font-size: 2.4rem;
+  line-height: 160%;
+  padding-top: 3.4rem;
+  padding-bottom: 3.2rem;
+}
+
+.article {
+  display: flex;
+  width: 38.2rem;
+  gap: 1.6rem;
+  padding-bottom: 3.2rem;
+  padding-right: 2.6rem;
+}
+
+.article img {
+  width: 15.1rem;
+  height: 8.4rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  min-width: 2.17rem;
+}
+
+.text h3{
+ font-size: 1.8rem;
+ font-weight: bold;
+ line-height: 160%;
+}
+
+.text p {
+  font-size: 1.4rem;
+  color: #121214;
+}
+
+footer {
+  width: 43rem;
+  height: 6.4rem;
+  background-color: #065E7C;
+}
+
+footer p {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  text-align: center;
+  justify-content: center;
+  padding: 2.6rem 1.6rem;
+}
