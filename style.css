@@ -22,7 +22,7 @@
 
   .container {
     padding: 1.6rem 3.2rem;
-    width: 43rem;
+    min-width: 43rem;
     margin: 0 auto;
   }
 
@@ -108,23 +108,23 @@
     font-size: 2.4rem;
     line-height: 160%;
     text-align: center;
+    align-items: center;
   }
   
-  sidebar {
+  section {
     width: 38.2rem;
     margin: 0 auto;
-    padding-bottom: 3.2rem;
+    
   }
   
-  sidebar .container {
+  .article {
     width: 38.2rem;
     display: flex;
     gap: 1.6rem;
     padding: .8rem 0;
-    align-items: center;
   }
   
-  sidebar img {
+  section img {
     width: 15.1rem;
     height: 8.4rem;
   }
@@ -138,10 +138,11 @@
   .text p {
     font-size: 1.4rem;
     color: #121214;
+    padding: 0;
   }
   
   footer {
-    width: 43rem;
+    
     background-color: #065E7C;
   }
 
@@ -151,51 +152,47 @@
     color: white;
   }
 
-  @media (min-width: 770px) {
-    #blog {
+  
+  @media (min-width: 700px) {
+
+    main {
+      display: flex;
       max-width: 100%;
-      display: grid;
-      grid-template-areas: 
-      "header header header"
-      "main main sidebar"
-      "footer footer footer";
+      gap: 3.4rem;
+      padding: 0 8.5rem;
     }
 
-    #blog header {
+    header {
       width: 100%;
-      grid-area: header;
-      padding: 1.6rem 11.2rem;
     }
 
-    #blog main {
-      grid-area: main;
-      max-width: 80.3rem;
+    .main {
+      max-width: 80rem;
     }
 
-    #blog .h1button {
+    .gato {
+      max-width: fit-content;
+      padding-top: 2.4rem;
+    }
+
+    .gato img {
+      width: 80rem;
+    }
+
+    .h1button {
       display: flex;
+      max-width: 80rem;
       justify-content: space-between;
+      padding-top: 3.1rem;
       align-items: center;
-      padding-top: 3.1rem;
+     }
+
+    section {
+      padding-top: 1.5rem;
     }
 
-    #blog .gato img {
-      width: 80.3rem;
-      height: 40.5rem;
-      padding-top: 4.4rem;
-    }
-
-    #blog sidebar { 
-      grid-area: sidebar;
-
-      display: flex;
-      padding-right: 11rem;
-      padding-top: 3.1rem;
-      flex-direction: row-reverse;
-    }
-
-    #blog footer {
-      grid-area: footer;
+    footer {
       width: 100%;
     }
-  }
+}
+  
