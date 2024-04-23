@@ -7,7 +7,7 @@
 </p>&nbsp;&nbsp;&nbsp;
 </p>
 
-<img src="/assets/projeto.png" alt="Fotoblog">
+<img src="/assets/Desktop.png" alt="Fotoblog">
 
 ## 🚀 Tecnologias
 
