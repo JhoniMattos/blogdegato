@@ -9,15 +9,6 @@
 
 <img src="/assets/Desktop.png" alt="Fotoblog">
 
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-
-<img src="/assets/projeto.png" alt="Fotoblog">
-
-## 🚀 Tecnologias
-
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
